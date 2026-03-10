@@ -3,34 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Welcome Back | Modern Login</title>
+    <meta name="description" content="Access your account with our secure and premium login experience. Designed for simplicity and elegance.">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="box">
-        <span class="borderLine"></span>
-        <form>
-            <h2>Sign in</h2>
+    <div class="container">
+        <h2>Welcome Back</h2>
+        <p>Enter your details to access your account.</p>
+        <form action="#" method="post">
             <div class="inputBox">
-                <input type="text" required="required">
+                <input type="text" id="username" required="required">
                 <span>Username</span>
-                <i></i>
             </div>
             <div class="inputBox">
-                <input type="password" required="required">
+                <input type="password" id="password" required="required">
                 <span>Password</span>
-                <i></i>
             </div>
 
-            <div class="Links">
+            <div class="links">
                 <a href="#">Forgot Password?</a>
-                <a href="#">Sign up</a>
+                <a href="register.html" class="signup-btn">Sign up</a>
             </div>
 
             <input type="submit" value="Login">
         </form>
     </div>
-    <!-- Referensi Chanel -->
-    <!-- https://youtu.be/rWQeqH526KA?si=4NmRKEbSD_kyifnA -->
 </body>
 </html>
